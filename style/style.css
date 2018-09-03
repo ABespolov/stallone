@@ -180,7 +180,7 @@ h3 {
 
 .block-2 .content-section .row .col-md-6:first-child img {
     max-width: 365px;
-    width: 100%;
+    width: 145%;
 }
 
 .block-2 .button {
@@ -230,19 +230,24 @@ h3 {
 }
 
 .block-4 h2 {
-    margin-top: 90px;
+    margin-top: 70px;
 }
 
 .block-4 .content-section .row .col-md-6:first-child img {
     max-width: 1000px;
     position: relative;
-    top: 105px;
+    top: 0px;
+    left: -50%;
 }
 
 .block-4 h3,
 .block-4 h2,
 .block-4 p {
     color: #191b1d;
+}
+
+.block-4 p{
+    max-width: 420px;
 }
 
 .block-4 .button {
@@ -259,6 +264,9 @@ h3 {
 .block-5 {
     background: url('../images/block_5_back.png');
     background-size: cover;
+    background-color: #181a1c;
+    position: relative;
+    z-index: 2;
 }
 
 .block-5 .text::before,
@@ -270,6 +278,8 @@ h3 {
     left: -40px;
     top: 30px;
 }
+
+
 
 .block-5 .text::after {
     transform: rotate(180deg);
@@ -292,6 +302,11 @@ h3 {
 
 .block-5 .row .text:not(:last-child) {
     margin-top: 80px;
+}
+
+.block-5 .stalone-girls{
+    position: relative;
+    top: 40px;
 }
 
 .block-5 .row .text:nth-child(2) {
@@ -416,6 +431,11 @@ h3 {
     align-items: center;
 }
 
+.block-7 .contacts {
+    margin-top: 160px;
+    margin-bottom: 80px;
+}
+
 .block-7 h2+img {
     width: 100%;
     max-width: 500px;
@@ -428,15 +448,32 @@ h3 {
 
 .block-8 {
     background: #FFF;
+    background: #FFF;
+    max-width: 400px;
+    height: 358px;
+    position: relative;
+    top: 385px;
+    margin-top: -358px;
+    text-align: left;
+    padding-left: 34px;
+    box-shadow: 0 19px 65px rgba(0, 0, 0, 0.73);
+    padding-top: 40px;
+    padding-bottom: 20px;
+    float: right;
+    position: relative;
+    left: -80px;
+    padding-right: 60px;
 }
 
 .block-8 h2 {
     color: #000;
-    margin-top: 160px;
+    margin-top: 0px;
+    font-size: 30px;
+    text-align: left;
 }
 
 .block-8 .info {
-    text-align: center;
+    text-align: left;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -448,6 +485,7 @@ h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
+    font-family: Montserrat;
 }
 
 .block-8 .mail,
@@ -456,18 +494,29 @@ h3 {
     text-decoration: underline;
 }
 
+.block-8 .info img {
+    margin-bottom: 5px;
+}
+
 .block-8 .policy {
-    margin-top: 60px;
+    margin-top: 30px;
     display: block;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .block-8 .copyright {
     color: #000;
+    font-size: 16px;
+    margin-top: 15px;
 }
 
 .block-8 .info {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+section iframe{
+    margin-bottom: -5px;
 }
 
 .modal-header {
@@ -475,10 +524,20 @@ h3 {
 }
 
 #form-popup input {
-    width: 70%;
+    width: 90%;
     height: 65px;
     border-radius: 8px;
     background-color: #ffffff;
+    padding-left: 27px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    border: none!important;
+}
+
+#form-popup .modal-dialog {
+    max-width: 490px;
 }
 
 #form-popup form input:not(:first-child) {
@@ -487,6 +546,9 @@ h3 {
 
 #form-popup .button {
     margin: 0 auto;
+    width: 90%;
+    max-width: 90%;
+    margin-bottom: 25px;
 }
 
 .modal-body {
@@ -501,7 +563,6 @@ h3 {
     font-size: 18px;
     font-weight: 500;
     line-height: 32px;
-    margin-left: 27px;
 }
 
 #form-popup .checkbox {
@@ -516,13 +577,37 @@ h3 {
     font-size: 12px;
     font-weight: 600;
     max-width: 400px;
+    text-align: left;
+    margin-left: 7px;
+    cursor: pointer;
 }
 
 #form-popup li {
     display: flex;
     margin: 0 auto;
     max-width: 400px;
-    ;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    max-width: 90%;
+}
+
+#form-popup .close {
+    opacity: 1;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: -20px;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="phone"]:focus,
+input[type="email"]:focus,
+.uneditable-input:focus {
+    border-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0.8);
+    outline: 0 none;
 }
 
 @media(max-width: 1200px) {
@@ -557,6 +642,7 @@ h3 {
     .block-3 p {
         position: inherit;
         margin: 0 auto;
+        margin-bottom: 70px;
     }
     .block-3 .stalone-desktop {
         display: none;
@@ -568,6 +654,21 @@ h3 {
         max-width: 400px;
         margin: 0 auto;
         margin-top: 70px;
+    }
+    .block-7 .pipo{
+        max-width: 1000px!important;
+    }
+    .block-2 .content-section .row .col-md-6:first-child img{
+        left:0;
+    }
+    .block-5 .text-image{
+        display: block;
+        margin: 0 auto;
+    }
+    .block-6 .stalone-mobile{
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
     }
     .block-6 .content-section .row .col-md-6:last-child {
         left: 0;
@@ -613,6 +714,10 @@ h3 {
         margin-left: auto;
         margin-right: auto;
         margin-top: 50px;
+    }
+    .block-5 .article{
+        display: flex;
+        flex-flow: column;
     }
 }
 
@@ -715,6 +820,84 @@ h3 {
     }
     .block-5 .row .text:not(:last-child) {
         left: 0!important;
+    }
+    .block-1 .place {
+        margin-bottom: 25px;
+        margin-top: 10px;
+    }
+    .block-2 .content-list p br {
+        display: none;
+    }
+    .block-4 h2 {
+        margin-top: 40px;
+    }
+    .block-5 h2 {
+        margin-top: 40px;
+    }
+    .block-5 .row .text:not(:last-child) {
+        margin-top: 30px;
+    }
+    .block-separator {
+        margin-top: 50px;
+    }
+    .block-6 h2 {
+        margin-top: 60px;
+    }
+    .block-6 .stalone-mobile {
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+        margin-top: 40px;
+    }
+    .block-6 .program-list {
+        margin-top: 15px;
+    }
+    .block-6 .first-list {
+        margin-top: 0;
+    }
+    .block-6 .program-list p:last-child {
+        font-size: 15px;
+    }
+    .block-6 .program-list p:first-child {
+        font-size: 50px;
+    }
+    .block-6 .button {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .block-8 {
+        left: 0;
+        top: 0;
+        width: 100%;
+        float: none;
+        height: inherit;
+        max-width: 100%;
+    }
+    .block-7 .partners {
+        margin-bottom: 20px;
+    }
+    .block-7 {
+        margin-bottom: 130px;
+    }
+    .block-8 .policy, .block-8 .copyright{
+        font-size: 14px;
+    }
+    .block-7 h2{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .block-4 .content-section .row .col-md-6:first-child img{
+        left: 0px;
+    }
+    .block-4 .button{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .block-5 .stalone-girls{
+        top: 0;
+    }
+    .block-8 .policy{
+        line-height: 20px;
     }
 }
 
