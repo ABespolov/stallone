@@ -240,13 +240,20 @@ h3 {
     left: -50%;
 }
 
+.block-4 .content-section .row .col-md-6:nth-child(3) img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
 .block-4 h3,
 .block-4 h2,
 .block-4 p {
     color: #191b1d;
 }
 
-.block-4 p{
+.block-4 p {
     max-width: 420px;
 }
 
@@ -279,8 +286,6 @@ h3 {
     top: 30px;
 }
 
-
-
 .block-5 .text::after {
     transform: rotate(180deg);
     float: right;
@@ -304,7 +309,7 @@ h3 {
     margin-top: 80px;
 }
 
-.block-5 .stalone-girls{
+.block-5 .stalone-girls {
     position: relative;
     top: 40px;
 }
@@ -446,13 +451,17 @@ h3 {
     max-width: 160px;
 }
 
+.block-7 .partners-list {
+    display: flex;
+}
+
 .block-8 {
     background: #FFF;
     background: #FFF;
     max-width: 400px;
     height: 358px;
     position: relative;
-    top: 385px;
+    top: 400px;
     margin-top: -358px;
     text-align: left;
     padding-left: 34px;
@@ -515,7 +524,7 @@ h3 {
     margin-top: 30px;
 }
 
-section iframe{
+section iframe {
     margin-bottom: -5px;
 }
 
@@ -625,6 +634,7 @@ input[type="email"]:focus,
         max-width: 250px;
         margin-bottom: -250px;
         margin-top: 20px;
+        margin-left: 0!important;
     }
     .block-3 .stalone-mobile {
         display: block;
@@ -655,17 +665,17 @@ input[type="email"]:focus,
         margin: 0 auto;
         margin-top: 70px;
     }
-    .block-7 .pipo{
+    .block-7 .pipo {
         max-width: 1000px!important;
     }
-    .block-2 .content-section .row .col-md-6:first-child img{
-        left:0;
+    .block-2 .content-section .row .col-md-6:first-child img {
+        left: 0;
     }
-    .block-5 .text-image{
+    .block-5 .text-image {
         display: block;
         margin: 0 auto;
     }
-    .block-6 .stalone-mobile{
+    .block-6 .stalone-mobile {
         display: block;
         margin: 0 auto;
         margin-top: 50px;
@@ -715,9 +725,12 @@ input[type="email"]:focus,
         margin-right: auto;
         margin-top: 50px;
     }
-    .block-5 .article{
+    .block-5 .article {
         display: flex;
         flex-flow: column;
+    }
+    .block-7 .partners-list {
+        display: block;
     }
 }
 
@@ -775,7 +788,7 @@ input[type="email"]:focus,
         width: 65%;
     }
     .block-2 h3 {
-        margin-bottom: 50px;
+        margin-bottom: 15px;
     }
     .block-2 .content-list p {
         font-size: 15px;
@@ -879,27 +892,28 @@ input[type="email"]:focus,
     .block-7 {
         margin-bottom: 130px;
     }
-    .block-8 .policy, .block-8 .copyright{
+    .block-8 .policy,
+    .block-8 .copyright {
         font-size: 14px;
     }
-    .block-7 h2{
+    .block-7 h2 {
         margin-top: 50px;
         margin-bottom: 40px;
     }
-    .block-4 .content-section .row .col-md-6:first-child img{
+    .block-4 .content-section .row .col-md-6:first-child img {
         left: 0px;
     }
-    .block-4 .button{
+    .block-4 .button {
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    .block-5 .stalone-girls{
+    .block-5 .stalone-girls {
         top: 0;
     }
-    .block-8 .policy{
+    .block-8 .policy {
         line-height: 20px;
     }
-    .block-3 p br{
+    .block-3 p br {
         display: none;
     }
 }
