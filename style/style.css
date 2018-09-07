@@ -404,6 +404,7 @@ h3 {
 
 .block-7 {
     background: #fff;
+    padding-bottom: 90px;
 }
 
 .block-7 .col-md-3 {
@@ -470,7 +471,7 @@ h3 {
     padding-bottom: 20px;
     float: right;
     position: relative;
-    left: -80px;
+    left: -95px;
     padding-right: 60px;
 }
 
@@ -885,6 +886,7 @@ input[type="email"]:focus,
         float: none;
         height: inherit;
         max-width: 100%;
+        margin-top: -130px;
     }
     .block-7 .partners {
         margin-bottom: 20px;
