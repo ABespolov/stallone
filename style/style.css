@@ -632,10 +632,10 @@ input[type="email"]:focus,
         display: block;
         margin: 0 auto;
         width: 100%;
-        max-width: 250px;
+        max-width: 400px;
         margin-bottom: -250px;
         margin-top: 20px;
-        margin-left: 0!important;
+        margin-left: 40%;
     }
     .block-3 .stalone-mobile {
         display: block;
@@ -657,6 +657,35 @@ input[type="email"]:focus,
     }
     .block-3 .stalone-desktop {
         display: none;
+    }
+    .block-4 .content-section .row .col-md-6:first-child img {
+        top: 30px;
+    }
+    .block-5 .article {
+        flex-flow: column;
+    }
+    .block-5 .row .text {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0!important;
+    }
+    .block-5 .text-image {
+        margin-left: 0;
+    }
+    .block-8 {
+        left: 0;
+        top: 0;
+        width: 100%;
+        float: none;
+        height: inherit;
+        max-width: 100%;
+        margin-top: -130px;
+    }
+    .block-7 {
+        margin-bottom: 130px;
+    }
+    .block-8 h2 {
+        text-align: center;
     }
 }
 
@@ -680,6 +709,7 @@ input[type="email"]:focus,
         display: block;
         margin: 0 auto;
         margin-top: 50px;
+        max-width: 250px;
     }
     .block-6 .content-section .row .col-md-6:last-child {
         left: 0;
@@ -732,6 +762,12 @@ input[type="email"]:focus,
     }
     .block-7 .partners-list {
         display: block;
+    }
+}
+
+@media(max-width: 768px) {
+    .block-1 .stalone-mobile {
+        margin-left: 0;
     }
 }
 
@@ -879,20 +915,8 @@ input[type="email"]:focus,
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    .block-8 {
-        left: 0;
-        top: 0;
-        width: 100%;
-        float: none;
-        height: inherit;
-        max-width: 100%;
-        margin-top: -130px;
-    }
     .block-7 .partners {
         margin-bottom: 20px;
-    }
-    .block-7 {
-        margin-bottom: 130px;
     }
     .block-8 .policy,
     .block-8 .copyright {
@@ -917,6 +941,12 @@ input[type="email"]:focus,
     }
     .block-3 p br {
         display: none;
+    }
+    section iframe {
+        height: 400px;
+    }
+    .block-8 h2 {
+        text-align: left;
     }
 }
 
